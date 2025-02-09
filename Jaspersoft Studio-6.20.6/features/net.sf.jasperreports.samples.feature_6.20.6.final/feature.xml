@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.sf.jasperreports.samples.feature"
+      label="JasperReports Library Samples Feature"
+      version="6.20.6.final"
+      provider-name="Cloud Software Group, Inc."
+      os="linux,macosx,win32"
+      ws="carbon,cocoa,gtk,win32">
+
+   <description url="https://community.jaspersoft.com/project/jaspersoft-studio">
+      JasperReports Samples for Jaspersoft Studio
+   </description>
+
+   <copyright>
+      Copyright (C) 2010 - 2023. Cloud Software Group, Inc.
+   </copyright>
+
+   <url>
+      <update label="Jaspersoft Studio update site" url="https://jasperstudio.sf.net/updates"/>
+      <discovery label="Jaspersoft Studio Community Edition" url="https://community.jaspersoft.com/project/jaspersoft-studio"/>
+   </url>
+
+   <requires>
+      <import plugin="net.sf.jasperreports" version="6.20.6" match="greaterOrEqual"/>
+      <import plugin="net.sf.jasperreports.samples" version="6.20.6" match="greaterOrEqual"/>
+      <import plugin="net.sf.jasperreports.doc" version="6.20.6" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.navigator.resources" version="3.4.200" match="greaterOrEqual"/>
+      <import plugin="com.jaspersoft.studio.doc" version="2.0.1" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="net.sf.jasperreports.samples"
+         download-size="7020"
+         install-size="7089"
+         version="6.20.6.final"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.doc.samples"
+         download-size="13"
+         install-size="23"
+         version="6.20.6.final"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

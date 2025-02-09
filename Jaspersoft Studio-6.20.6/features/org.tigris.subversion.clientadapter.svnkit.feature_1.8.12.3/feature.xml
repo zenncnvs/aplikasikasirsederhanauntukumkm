@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.tigris.subversion.clientadapter.svnkit.feature"
+      label="SVNKit Client Adapter"
+      version="1.8.12.3"
+      provider-name="Subclipse"
+      plugin="org.tigris.subversion.clientadapter.svnkit">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="https://github.com/subclipse/subclipse">
+      https://github.com/subclipse/subclipse
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.tigris.subversion.clientadapter"/>
+      <import plugin="org.tmatesoft.svnkit" version="1.8.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.tigris.subversion.clientadapter.svnkit"
+         download-size="105"
+         install-size="129"
+         version="1.8.12.3"
+         unpack="false"/>
+
+</feature>

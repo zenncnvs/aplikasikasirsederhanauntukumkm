@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.jaspersoft.studio.foundation.bundles"
+      label="Jaspersoft Studio Required Bundles Feature"
+      version="1.0.23"
+      provider-name="Cloud Software Group, Inc.">
+
+   <description url="https://community.jaspersoft.com/project/jaspersoft-studio">
+      Required bundles to run correctly Jaspersoft Studio
+   </description>
+
+   <copyright>
+      Copyright (C) 2010 - 2023. Cloud Software Group, Inc.
+   </copyright>
+
+   <url>
+      <update label="Jaspersoft Studio update site" url="https://jasperstudio.sf.net/updates"/>
+      <discovery label="Jaspersoft Studio Community Edition" url="https://community.jaspersoft.com/project/jaspersoft-studio"/>
+   </url>
+
+   <requires>
+      <import plugin="org.w3c.dom.svg" version="1.1.0" match="greaterOrEqual"/>
+      <import plugin="org.slf4j.api" version="1.7.30" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.apache.log4j" version="1.2.19" match="greaterOrEqual"/>
+      <import plugin="org.apache.xmlgraphics" version="2.7.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.servicemix.bundles.rhino"/>
+      <import plugin="org.w3c.css.sac"/>
+      <import plugin="org.w3c.dom.events"/>
+      <import plugin="org.w3c.dom.smil"/>
+   </requires>
+
+   <plugin
+         id="org.krysalis.barcode4j"
+         download-size="268"
+         install-size="490"
+         version="2.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.barbecue"
+         download-size="76"
+         install-size="89"
+         version="1.5.0.beta1_b02"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.beanshell"
+         download-size="361"
+         install-size="380"
+         version="2.0.0.b6_02"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.commons-beanutils"
+         download-size="220"
+         install-size="241"
+         version="1.9.4.b01"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.commons-digester"
+         download-size="166"
+         install-size="193"
+         version="2.1.0.201709071631"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.antlr"
+         download-size="443"
+         install-size="879"
+         version="2.7.7.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.rhino"
+         download-size="2342"
+         install-size="6836"
+         version="1.7.14.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.dom.svg.patch"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.b02"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.jfree.jcommon-osgi"
+         download-size="328"
+         install-size="595"
+         version="1.0.23"
+         unpack="false"/>
+
+   <plugin
+         id="org.jfree.chart-osgi"
+         download-size="1542"
+         install-size="3137"
+         version="1.0.19"
+         unpack="false"/>
+
+   <plugin
+         id="groovy"
+         download-size="7381"
+         install-size="16957"
+         version="4.0.8"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.jackson"
+         download-size="3822"
+         install-size="4277"
+         version="2.14.2.b01"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang3"
+         download-size="490"
+         install-size="1055"
+         version="3.8.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.math3"
+         download-size="2161"
+         install-size="4420"
+         version="3.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.poi"
+         download-size="9418"
+         install-size="10519"
+         version="5.2.2.b02"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.cdt-java-client"
+         download-size="3047"
+         install-size="3451"
+         version="4.0.0.b01"/>
+
+   <plugin
+         id="com.google.zxing.core"
+         download-size="527"
+         install-size="977"
+         version="3.4.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.activation.javax.activation"
+         download-size="76"
+         install-size="151"
+         version="1.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.transaction"
+         download-size="31"
+         install-size="56"
+         version="1.1.1.v201105210645"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.xml.bind.jaxb-osgi"
+         download-size="3582"
+         install-size="7641"
+         version="2.4.0.b180830_0438"
+         unpack="false"/>
+
+   <plugin
+         id="jaxb-api"
+         download-size="125"
+         install-size="249"
+         version="2.4.0.b1808300359"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="624"
+         install-size="1250"
+         version="3.2.2.v20220405-1659"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="370"
+         install-size="703"
+         version="1.14.0.v20221112-0806"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.soap"
+         download-size="521"
+         install-size="580"
+         version="1.4.2.b01"/>
+
+   <plugin
+         id="org.apache.ant"
+         download-size="3026"
+         install-size="3540"
+         version="1.10.12.v20211102-1452"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.xmlbeans"
+         download-size="3609"
+         install-size="10320"
+         version="5.0.3.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections4"
+         download-size="798"
+         install-size="1862"
+         version="4.4.0.v20221112-0806"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.santuario.xmlsec"
+         download-size="1102"
+         install-size="2454"
+         version="2.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.logging.log4j.api"
+         download-size="294"
+         install-size="715"
+         version="2.17.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.logging.log4j.jcl"
+         download-size="12"
+         install-size="28"
+         version="2.17.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.logging.log4j.core"
+         download-size="1748"
+         install-size="3882"
+         version="2.17.1"
+         unpack="false"/>
+
+   <plugin
+         id="jaxen"
+         download-size="227"
+         install-size="404"
+         version="1.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.logging.log4j"
+         download-size="0"
+         install-size="0"
+         version="1.2.19.js01"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="jaxb-api-import-fragment"
+         download-size="1"
+         install-size="1"
+         version="1.0.0.b02"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.osgi.framework.system.packages.extra"
+         download-size="2"
+         install-size="1"
+         version="1.0.0.b02"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="bcpg"
+         download-size="401"
+         install-size="780"
+         version="1.73.0"
+         unpack="false"/>
+
+   <plugin
+         id="bcprov"
+         download-size="11211"
+         install-size="21596"
+         version="1.73.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.commons-net"
+         download-size="309"
+         install-size="596"
+         version="3.9.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.commons-validator"
+         download-size="185"
+         install-size="394"
+         version="1.7.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.batik"
+         download-size="3779"
+         install-size="4195"
+         version="1.16.0.b01"/>
+
+   <plugin
+         id="bcpkix"
+         download-size="1017"
+         install-size="2079"
+         version="1.73.0"
+         unpack="false"/>
+
+   <plugin
+         id="bcutil"
+         download-size="659"
+         install-size="1349"
+         version="1.73.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.nebula.cwt"
+         download-size="155"
+         install-size="295"
+         version="1.1.0.202303072132"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.nebula.jface.cdatetime"
+         download-size="21"
+         install-size="32"
+         version="1.3.0.202303072132"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.nebula.widgets.cdatetime"
+         download-size="109"
+         install-size="217"
+         version="1.5.0.202303072132"
+         unpack="false"/>
+
+</feature>
